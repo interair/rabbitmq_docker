@@ -1,1 +1,1 @@
-##Rabbitmq with enabled hipe and erlang cookies
+##Rabbitmq with enabled hipe_compile and erlang cookies
