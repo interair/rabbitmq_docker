@@ -1,5 +1,1 @@
-
-
-#! /usr/bin/env bash
-docker build -t interair/rabbitmq:2 .
-
+##Rabbitmq with enabled hipe and erlang cookies
