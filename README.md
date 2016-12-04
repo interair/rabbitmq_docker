@@ -11,7 +11,7 @@ docker run -d --name rabbitmq \
 	 -l service-type=system \
 	 -l application=rabbitmq \
 	 --restart=always \
-	 name/rabbitmq
+	 codeabovelab/rabbitmq
 ```
 
 sh scale_rabbitmq.sh
@@ -29,5 +29,5 @@ docker run -d --name $NAME \
          -l service-type=system \
          -l application=rabbitmq \
           --restart=always \
-         name/rabbitmq
+         codeabovelab/rabbitmq
 ```
