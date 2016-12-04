@@ -29,7 +29,7 @@ ENV RABBITMQ_LOGS=- RABBITMQ_SASL_LOGS=-
 
 # Add scripts
 ADD run.sh /run.sh
-ADD set_rabbitmq_password.sh /set_rabbitmq_password.sh
+ADD set_rabbitmq_configuration.sh /set_rabbitmq_configuration.sh
 RUN chmod 755 ./*.sh
 
 EXPOSE 5672 15672 25672
