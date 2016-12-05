@@ -3,8 +3,7 @@ MAINTAINER interair
 
 	# install Erlang
 	RUN apt-get update \
-	&& apt-get install -y --no-install-recommends --allow-unauthenticated \
-    apt-utils \
+	&& apt-get install -y --no-install-recommends --allow-unauthenticated apt-utils \
 	erlang-asn1 \
 	erlang-base-hipe \
 	erlang-crypto \
