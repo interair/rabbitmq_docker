@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 if [ -f /.rabbitmq_configuration_set ]; then
