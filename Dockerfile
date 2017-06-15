@@ -1,8 +1,10 @@
 FROM debian:testing
 MAINTAINER interair
 
-	# install Erlang
-	RUN apt-get update \
+# add sources
+RUN echo 'deb http://www.rabbitmq.com/debian/ testing main' | tee /etc/apt/sources.list.d/rabbitmq.list
+# install Erlang
+RUN apt-get update \
 	&& apt-get install -y --no-install-recommends --allow-unauthenticated apt-utils \
 	erlang-asn1 \
 	erlang-base-hipe \
