@@ -1,4 +1,4 @@
-##Rabbitmq with enabled hipe_compile and erlang cookies
+## Rabbitmq-cluster with enabled hipe_compile and erlang cookies
 
 
 ```
